@@ -1,0 +1,346 @@
+.global{
+    background: #162831;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container_2{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/*Header*/
+
+
+.header_wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.nav_buttons{
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    align-self: center;
+}
+.nav > a {
+    margin-right: 50px;
+}
+
+.nav > a:last-child{
+    margin: 0;
+}
+
+.header_button{
+    align-self: center;
+    background: #018ABE;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+/*Facing block*/
+
+.aquatherapy_wrapper{
+    background-image: url(../images/und_head/aqua_terap.svg);
+    border-radius: 10px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+}
+
+.aqua_lil_title{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding-top: 140px;
+    color: white;
+    font-size: 24px;
+}
+
+.aqua_big_title{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    line-height: 90px;
+    color: white;
+    font-size: 64px;
+}
+
+.aqua_big_title_sec{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    line-height: 90px;
+    padding-bottom: 210px;
+    color: white;
+    font-size: 64px;
+}
+
+/*Сеансы RitmStyle*/
+
+.seans_title_text{
+    color: white;
+    font-size: 42px;
+}
+
+.seans_title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.seans_wrapper{
+    display: block;
+}
+
+.seans_blocks{
+    display: flex;
+}
+
+.seans_first_line{
+    display: flex;
+}
+
+.seans_second_line{
+    display: flex;
+}
+
+.seans_second_big_block{
+    display: block;
+}
+
+.seans_bigger_block{
+    background-image: url(/images/seans/seans.svg);
+    width: 415px;
+    height: 540px;
+    display: flex;
+}
+
+.seans_second_line_first_block{
+    background-image: url(/images/seans/seans.svg);
+    width: 415px;
+    height: 255px;
+}
+
+.seans_second_line_second_block{
+    background-image: url(/images/seans/seans.svg);
+    width: 415px;
+    height: 255px;
+}
+
+.seans_first_line_first_block{
+    background-image: url(/images/seans/seans.svg);
+    width: 415px;
+    height: 255px;
+}
+
+.seans_first_line_second_block{
+    background-image: url(/images/seans/seans.svg);
+    width: 415px;
+    height: 255px;
+}
+
+.seans{
+    margin-top: 150px;
+}
+
+/*отзывы*/
+
+.review{
+    margin-top: 150px;
+}
+
+.review_title{
+    font-size: 42px;
+    color: white;
+}
+
+.review_title_block{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.review_workspace{
+    display: flex;
+    justify-content: center;
+}
+
+.review_workspace_inner{
+    width: 635px;
+    background: #018ABE;
+    border-radius: 10px;
+    padding: 50px 60px;
+}
+
+.review_workspace_inner_text_main{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.review_workspace_inner_text_lil_1{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.review_workspace_inner_text_lil_2{
+    margin-bottom: 20px;
+    color: white;
+}
+
+/*Об*/
+
+
+.about_wrapper_title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.about_wrapper_title_text{
+    color: white;
+}
+
+.about_wrapper{
+    display: block;
+}
+
+.about_firstline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.about_secondline{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_font{
+    color: white;
+}
+
+.about{
+    margin-top: 220px;
+}
+
+.about_inner_title_big{
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.about_inner_title_lil{
+    margin-bottom: 30px;
+}
+
+/*cost*/
+
+.cost{
+    margin-top: 150px;
+}
+
+.cost_title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.cost_title_text{
+    color: white;
+    font-size: 42px;
+}
+
+.cwi_secondline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cwi_thirdline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cwi_fouthline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cwi_fifthline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cwi_firstline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cwi_firstline > p {
+    margin-right: 20px;
+}
+
+.cost_workspace{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cost_workspace_inner{margin-top: 100px;}
+
+/*location*/
+
+.location{
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+.location_wrapper{
+    display: flex;
+}
+
+.location_background{
+    background-color: #018ABE;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    padding: 55px 65px;
+}
+
+.loc_title_big{
+    margin-bottom: 20px;
+}
+
+.loc_title_lil{
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.loc_button{
+    text-decoration: none;
+    color: #018ABE;
+}
+
+.loc_button_outer{
+    padding: 10px 15px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.location_back_inn{
+    margin-right: 50px;
+}
